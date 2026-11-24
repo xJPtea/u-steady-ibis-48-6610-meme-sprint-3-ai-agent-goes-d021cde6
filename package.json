@@ -1,0 +1,1 @@
+{"description":"Meme Sprint 3: AI Agent Goes Rogue — a chat-log meme drawn entirely in code","main":"main.ts","name":"meme-sprint-3-ai-agent-goes-rogue","private":true,"scripts":{"start":"node main.ts"},"type":"module","version":"1.0.0"}
