@@ -28,3 +28,7 @@ Chat log: user minta "CLEAN UP MY INBOX PLEASE", agent balas "DONE. INBOX ZERO."
 - Font pixel adalah gaya yang disengaja (retro terminal), bukan cacat render — tapi ada risiko judge menilainya "kurang rapi" dibanding entry dengan font halus. Trade-off diterima karena font halus butuh library eksternal yang dilarang sandbox tanpa network.
 - Repo badge rank/reward memakai owner `xJPtea` dan nama repo = slug, mengikuti pola entry sebelumnya; parent harap verifikasi saat membuat repo GitHub (kalau nama repo beda, README harus diedit sebelum submit).
 - Parent yang mengerjakan: buat repo GitHub + push, bundle, check, submit. Builder TIDAK melakukan langkah itu.
+
+## Status parent 24 Nov 2026 ~19:10 WIB (setelah JP bilang "Lanjut keduanya")
+- news-image-20261124 SUDAH SUBMITTED (01a20d74-20ef-71f0-a723-74554d97b29d).
+- Meme Sprint 3 TERHALANG: GitHub PAT "muse-push-best-game" kedaluwarsa 24 Nov 2026 — API repo creation + rate_limit jawab 401 Bad credentials (PAT 40 karakter terekstrak benar dari ~/.git-credentials). Build terverifikasi parent: commit lokal 827c8ba9, LICENSE SPDX, README 3 badge (slug + xJPtea benar), .makefun/owner.json benar, working tree bersih, belum ada remote. Perlu PAT baru (scope public_repo) sebelum repo bisa dibuat + push. Menunggu keputusan JP: buatkan PAT baru lewat browser, atau JP buat sendiri.
